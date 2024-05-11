@@ -1,4 +1,7 @@
+.git
+.gitignore
 .gitattributes
 LICENSE
 README.md
 Dockerfile
+.dockerignore
