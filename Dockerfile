@@ -21,4 +21,4 @@ RUN sudo chmod +x orca_6_0_0_linux_x86-64_shared_openmpi416.run
 
 RUN sudo ./orca_6_0_0_linux_x86-64_shared_openmpi416.run --target Orca --noexec
 
-RUN rm orca_6_0_0_linux_x86-64_shared_openmpi416.run
+RUN sudo rm orca_6_0_0_linux_x86-64_shared_openmpi416.run
