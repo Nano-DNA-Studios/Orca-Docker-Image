@@ -52,4 +52,5 @@ ENV OMP_STACKSIZE=4G
 ENV OMP_NUM_THREADS=4
 ENV MKL_NUM_THREADS=4
 
+# Run the Bash Script to Set Environment Variables
 RUN ./XTB/share/xtb/config_env.bash
