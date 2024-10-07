@@ -13,7 +13,7 @@ RUN echo 'orca ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 RUN usermod -aG sudo orca
 
 # Update and install necessary packages
-RUN apt-get update && apt-get upgrade -y && apt-get install -y curl xz-utils build-essential nano
+RUN apt-get update && apt-get upgrade -y && apt-get install -y curl xz-utils build-essential nano 
 
 # Copy Files to Orca Image
 COPY . .
