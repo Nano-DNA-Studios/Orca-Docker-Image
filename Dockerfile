@@ -48,9 +48,12 @@ RUN  sudo ln -s /XTB/bin/xtb /Orca/otool_xtb
 # Set Environment Variables
 ENV PATH=/XTB/bin:$PATH
 ENV XTBPATH=/XTB/bin
+ENV XTBEXE=/XTB/bin/xtb
 ENV OMP_STACKSIZE=4G
 ENV OMP_NUM_THREADS=4
 ENV MKL_NUM_THREADS=4
+
+# Run the environment configuration script
 
 # Run the Bash Script to Set Environment Variables
 RUN ./XTB/share/xtb/config_env.bash
